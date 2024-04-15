@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1.5rem;
+  background: linear-gradient(to right, #20002c, #cbb4d4);
+}
+
+.headTitle {
+  width: 100%;
+  padding: 1.5rem;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+main {
+  background: linear-gradient(to right, #20002c, #cbb4d4);
+  width: 100%;
+  padding: 1.5rem;
+}
+
+.codeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 2rem 0;
+
+  p {
+    font-size: 18px;
+    padding: 0 1.5rem;
+    text-align: justify;
+  }
+}
+
+.firstDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filesJS,
+.userJS {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 0 2rem;
+
+  img {
+    width: 100%;
+  }
+}
+
+.indexJS {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+  padding: 0 2rem;
+}
+
+.indexIMGs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  padding: 0 2rem;
+
+  img {
+    width: 100%;
+  }
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+  background: #000000;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
